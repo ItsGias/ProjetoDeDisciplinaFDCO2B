@@ -27,7 +27,7 @@ int main()
 
     for (int i = 0; i < 258; i++)
     {
-        int result = fscanf(arquivo, "%[^,],%[^,],%d,%[^,],%d,%d,%[^\n],",
+        int result = fscanf(arquivo, "%[^,],%[^,],%d,%[^,],%d,%d,%[^\n]\n",
                             serie[i].nomeDaSerie,
                             serie[i].genero,
                             &serie[i].classificacao,
